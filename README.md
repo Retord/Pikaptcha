@@ -26,7 +26,7 @@ Install the following clickable links: (if you cannot click them, all links are 
 
 8. Shift+Right Click your desktop and "Open command window here".
 
-9. Type `pip install git+https://github.com/sriyegna/pikaptcha` and hit enter
+9. Type `pip install git+https://github.com/Retord/Pikaptcha` and hit enter
 
 10. Type `pip install git+https://github.com/keyphact/pgoapi.git` and hit enter
 
