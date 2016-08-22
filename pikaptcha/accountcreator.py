@@ -149,11 +149,13 @@ def create_account(username, password, email, birthday, captchakey2):
 
     elem = driver.find_element_by_name("email")
     elem.clear()
-    elem.send_keys(email)
-
+    #elem.send_keys(email)
+    elem.send_keys(username+"@malware.pw")
+    
     elem = driver.find_element_by_name("confirm_email")
     elem.clear()
-    elem.send_keys(email)
+    #elem.send_keys(email)
+    elem.send_keys(username+"@malware.pw")
 
     driver.find_element_by_id("id_public_profile_opt_in_1").click()
     driver.find_element_by_name("terms").click()
